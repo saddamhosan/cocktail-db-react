@@ -1,0 +1,15 @@
+.drink {
+  color: antiquewhite;
+  background-color: grey;
+  padding: 10px;
+  /* clip-path: polygon(15% 0%, 100% 0, 100% 90%, 85% 100%, 0 100%, 0% 10%); */
+}
+.drink img {
+  width: 100%;
+  /* clip-path: polygon(15% 0%, 100% 0, 100% 86%, 85% 100%, 0 100%, 0% 16%); */
+}
+.drink button {
+  width: 100%;
+  font-size: 20px;
+  /* clip-path: polygon(0 0, 93% 0, 86% 100%, 0% 100%); */
+}

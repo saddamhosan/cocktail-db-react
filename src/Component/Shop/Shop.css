@@ -1,0 +1,10 @@
+.search {
+  text-align: center;
+  margin: 20px 0;
+}
+.drinks {
+  margin: 10px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
