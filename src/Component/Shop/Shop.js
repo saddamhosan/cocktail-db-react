@@ -37,14 +37,16 @@ const Shop = () => {
       for (const id in storageItem) {
         const exists = drinks.find((item) => item.idDrink === id);
         if(exists){
-          
+          const quantity=storageItem[id]
+          exists.quantity=quantity
+          console.log(exists);
           saveCart.push(exists)
         }
       }
       
       setAddCart(saveCart)
 
-    },[drinks])
+    },[drinks,addCart])
     const handleSearch = (e) => {
         e.preventDefault();
       const textValue = e.target.value;
